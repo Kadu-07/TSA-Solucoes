@@ -114,7 +114,7 @@ function enviarFormulario(e) {
     const email = document.getElementById('email').value;
     const assunto = document.getElementById('assunto').value;
     const mensagem = document.getElementById('mensagem').value;
-    const texto = `Olá! Me chamo *${nome}* *${sobrenome}* (${email}).\n\n*Assunto:* ${assunto}\n\n${mensagem}`;
+    const texto = `Olá! Me chamo *${nome} ${sobrenome}* (${email}).\n\n*Assunto:* ${assunto}\n\n${mensagem}`;
     const url = `https://wa.me/5551990157080?text=${encodeURIComponent(texto)}`;
     window.open(url, '_blank');
 }

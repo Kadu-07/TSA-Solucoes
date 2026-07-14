@@ -696,7 +696,7 @@ a:hover {
     border-color: var(--borda-color-cont);
     border-radius: 10px;
     padding: 12px 14px;
-    color: white;
+    color: var(--text-color);
     font-size: 14px;
     transition: border-color .2s;
     outline: none;
